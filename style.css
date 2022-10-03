@@ -43,8 +43,8 @@ html {
     background-color: #fff;
 }
 
-#nav li:hover a,
-#nav > li;hover> a {
+#nav li:hover a
+#nav .subnav li:hover a {
     color: #000;
     background-color: #ccc;
     display: inline-block;
