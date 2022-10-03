@@ -15,7 +15,6 @@ html {
 #header {
     height: 46px;
     background-color: #000;
-
 }
 
 #nav {
@@ -25,16 +24,17 @@ html {
 #nav li {
     display: inline-block;
     position: relative;
+}
 
-
+#nav > li > a {
+    color: #fff;
 }
 
 #nav li a {
-    color: #fff;
     text-decoration: none;
     line-height: 46px;
     padding: 0 46px;
-
+    display: block;
 }
 
 #nav .subnav {
@@ -43,18 +43,32 @@ html {
     background-color: #fff;
 }
 
-#nav li:hover a {
+#nav li:hover a,
+#nav > li;hover> a {
     color: #000;
     background-color: #ccc;
     display: inline-block;
 
 }
 
-#nav .subnav:hover {
-    background-color: #000;
-    display: block;
-    color: #ccc;
+
+#nav .subnav {
+    background-color: #fff;
+    color: black;
+
 }
+
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #CCC;
+    display: inline-block;
+}
+
+#nav .subnav li a {
+    display: block;
+}
+
+
 
 #siler {
     background-color: #000;
