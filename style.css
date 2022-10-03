@@ -51,8 +51,9 @@ html {
 }
 
 #nav .subnav:hover {
-    background-color: #fff;
+    background-color: #000;
     display: block;
+    color: #ccc;
 }
 
 #siler {
